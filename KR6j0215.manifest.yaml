@@ -1,0 +1,59 @@
+canonical_identifier: bkk:krp/KR6j0215/v1
+canonical_location: https://kanripo.org/bkk/KR6j0215/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 一切如來心祕密全身舍利寶篋印陀羅尼經
+  identifiers:
+    alt_id:
+    - T19n1022A
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T19/T19n1022A.xml
+    old_id: T19n1022A
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 甲
+  label: 甲
+  source_xml_id: wit4
+- short: 乙
+  label: 乙
+  source_xml_id: wit5
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0215_000.yaml, hash: 'sha256:7070ebd82596f8f1913cb7c2b2715eacdf59c2eafa64efc8f128ee324d38e0ba'}
+  - {seq: 1, filename: KR6j0215_001.yaml, hash: 'sha256:77e4eb9b52e99bb65e632fb5120abc6f79b6b0efb1ee656d91882f950142ffbe'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0215_001.markers.yaml, hash: 'sha256:0a79ee19c3bae9898455bf60b2d7980e85d5b7d40596bb3e58e7dee05ba725e0'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0215_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 2840
+  label: '一切如來心祕密全身舍利寶篋
+
+    印陀羅尼經'
+  type: juan
+  level: 1
+hash: sha256:0dc6b2f80fa15b13a854ad075e3566b25306898d6a691d30c78db551c9a6e593
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
